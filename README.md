@@ -25,7 +25,7 @@ Claude CodeやClaudeのスキル対応環境で、`skills/memory-metabolism/SKIL
 設定の「機能」で「クラウドでコードを実行」と「外部ネットワークへの通信を許可」をオンにしてから、新しいチャットで次のように送る。
 
 ```
-https://github.com/yukishibue-bot/memory-metabolism のスキルを使えるようにして
+https://github.com/ai-jissen-lab/memory-metabolism のスキルを使えるようにして
 ```
 
 うまくいかないときは、`skills/memory-metabolism`フォルダを丸ごとzipにして、「設定」の「Skills」からアップロードする。
@@ -33,7 +33,7 @@ https://github.com/yukishibue-bot/memory-metabolism のスキルを使えるよ�
 ### Claude Codeで使う
 
 ```
-git clone https://github.com/yukishibue-bot/memory-metabolism.git
+git clone https://github.com/ai-jissen-lab/memory-metabolism.git
 cp -r memory-metabolism/skills/memory-metabolism ~/.claude/skills/
 ```
 
